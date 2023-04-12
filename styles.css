@@ -1,0 +1,31 @@
+/*Definindo a fonte Roboto como prioridade de uso para o documento inteiro.*/
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Definindo a cor designada como cor de plano de fundo da div header.*/
+.header {
+    background-color: #1F2937;
+    /*Iniciando o uso do recurso flexbox para organizar divs*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/**/
+.header > div {
+    flex: 1;
+    text-align: center;
+    
+}
+
+/**/
+.header > .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+
