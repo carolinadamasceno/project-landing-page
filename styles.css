@@ -1,11 +1,11 @@
-/*Definindo a fonte Roboto como prioridade de uso para o documento inteiro.*/
+/*Definindo a fonte Roboto como prioridade de uso para o documento inteiro (body). Na falta, qualquer uma sans-serif*/
 body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
 
-/*Definindo a cor designada como cor de plano de fundo da div header.*/
-.header {
+/*  REGRAS DE ESTILO PARA O CAIXA AZUL DO TOPO    */
+#btp {
     background-color: #1F2937;
     /*Iniciando o uso do recurso flexbox para organizar divs*/
     display: flex;
@@ -15,17 +15,75 @@ body {
 }
 
 /**/
-.header > div {
+#btp > div {
     flex: 1;
     text-align: center;
-    
 }
 
 /**/
-.header > .logo {
+#btp > #btp-main-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
+.btp-links {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/*  REGRAS DE ESTILO PARA PRIMEIRA SECTION    */
+
+#first-section {
+   
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#first-section > div {
+    flex: 1;
+    margin-left: 20%;
+}
+
+#title-and-subtitle > .main-title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+#title-and-subtitle > .subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#title-and-subtitle > .sign-up {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: 4px;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+
+#placeholder-for-image {
+    margin: 50px;
+    background-color: grey;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 60px;
+}
 
 

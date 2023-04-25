@@ -5,19 +5,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--conectando a uma folha de estilos css-->
     <link rel="stylesheet" href="styles.css" type="text/css">
+
+    <!--adicionando a fonte Roboto-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <!--titulo a ser exibido na aba da página-->
     <title>Projeto Landing Page</title>
 </head>
 
 <body>
-    <div class="header">
-        <div class="logo">Header Logo</div>
-        <div class="links">
-            <a class="link-one" href="#">header link one</a>
-            <a class="link-two" href="#">header link two</a>
-            <a class="link-three" href="#">header link three</a>
+
+    <!--barra azul escura do topo contendo o logo e os links (btp = blue top box)-->
+    <div id="btp">
+
+        <!--logo principal-->
+        <div id="btp-main-logo">
+            Header Logo
         </div>
+
+        <!--links do barra azul do topo-->
+        <div id="btp-links-content">
+            <a href="#" class="btp-links">About</a>
+            <a href="#" class="btp-links">Services</a>
+            <a href="#" class="btp-links">Contact Us</a>
+        </div>
+
     </div>
+
+    <!--seção 1/4-->
+    <div id="first-section">
+
+        <!--title and subtitle-->
+        <div id="title-and-subtitle">
+            <p class="main-title">This website is awesome</p>
+            <p class="subtext">This website has some subtext that goes here under the main title. It's a smaller front and the color is lower contrast.</p>
+            <button class="sign-up">Sign up</button>
+        </div>
+        
+        <!--placeholder-->
+        <div id="placeholder-for-image">
+            <p class="placeholder-info">this is a placeholder for an image</p>
+        </div>
+
+    </div>
+
+
 </body>
 
 </html>
